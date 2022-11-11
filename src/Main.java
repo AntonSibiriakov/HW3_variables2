@@ -18,7 +18,15 @@ public class Main {
         System.out.println("Зачение переменной double0 с типом doubleравно " + double0 );
 
 
-
+        //Задание №2
+        double double1 = 27.12;
+        long long1 = 987678965549l;
+        double double2 = 2.786;
+        boolean boolean1 = false;
+        int int1 = 569;
+        int int2 = -159;
+        int int3 = 27897;
+        int int4 = 67;
 
 
         //Задание №3
@@ -52,17 +60,19 @@ public class Main {
         int totalCabinet = totalJar / totaljarCabinet;
         int totalWhiteJar = whiteJarCabinet * totalCabinet;
         int totalBrownJar = brownJarCabinet * totalCabinet;
+
         System.out.println("В школе, где " + totalCabinet + " классов, нужно " + totalWhiteJar + " банок белой краски и " + totalBrownJar + " банок коричневой краски");
 
 
         //Задание №6
         int banana = 80;
-        int milk = 105; // Грамм в 100мл
+        int milk = 105;
         int iceCream = 100;
         int egg = 70;
 
         int breakfast = banana * 5 + milk * 2 + iceCream * 2 + egg * 4;
         double breakfastKG = breakfast / 1000;
+
         System.out.println("Общий вес завтрака " + breakfastKG + " кг");
 
 
@@ -71,6 +81,7 @@ public class Main {
         int totalExcessWeigh = 7;
         double minWeighLoss = 0.25;
         double maxWeighLoss = 0.5;
+
         double amountMinDay = totalExcessWeigh / minWeighLoss;
         double amountMaxDay = totalExcessWeigh / maxWeighLoss;
         double amountMeanDay = (amountMinDay + amountMaxDay) / 2;
